@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+#Heading {
+  font-size: 18pt;
+  font-weight: 600;
+}
+
+#addtocalender {
+  background: linear-gradient(to right, #ff4a67, #ff6c83);
+  padding: 0.4rem 1rem;
+  border: none;
+  color: white;
+  border-radius: 0.15rem;
+}
+
+#online {
+  background: linear-gradient(to right, #ff4a67, #ff6c83);
+  padding: 0.1rem 0.4rem;
+  border: none;
+  color: white;
+  border-radius: 0.15rem;
+  font-size: 0.7rem;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+}
+
+#person {
+  background: linear-gradient(to right, #ff4a67, #ff6c83);
+  padding: 0.1rem 0.4rem;
+  border: none;
+  color: white;
+  border-radius: 0.15rem;
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+
+#load-more {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+  border: 1px solid #334;
+  color: #334;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#load-more:hover {
+  background-color: #ff4a67;
+  border-color: #ff4a67;
+  color: white;
+}
+/* ------------------------------------------------------Event------------------------------------------------------ */
+
+.event {
+  padding: 5rem;
+}
+.event hr {
+  width: 3%;
+  height: 1px;
+  float: left;
+  /* color: linear-gradient(to right, #ff4a67, #ff6c83); */
+  background: #ff6c83;
+}
+
+.event .head .searchBar input {
+  color: rgb(226, 213, 213);
+  font-size: 14pt;
+  width: 75%;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+  outline: none;
+  border: 0.1rem solid rgb(241, 227, 227);
+  margin-top: 1rem;
+}
+
+.event .head .searchBar button {
+  color: white;
+  background: linear-gradient(to right, #ff4a67, #ff6c83);
+  text-align: center;
+  padding: 0.8rem 3rem;
+  text-decoration: none;
+  font-size: 14pt;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.event .body .items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4rem;
+  column-gap: 4rem;
+  margin-top: 5rem;
+}
+
+.event .body .items .card {
+  border: 2px solid rgb(214, 209, 209);
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+
+.event .body .items .card .card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event .body .items .card .card-head .card-head-right {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.event .body .items .card .card-header-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ------------------------------------------------------Blog------------------------------------------------------ */
+
+/* ------------------------------------------------------Cryptoevent------------------------------------------------------ */
+.cryptoevent {
+  padding: 5rem;
+}
+.cryptoevent hr {
+  width: 10%;
+  height: 1px;
+  float: left;
+  /* color: linear-gradient(to right, #ff4a67, #ff6c83); */
+  background: #ff6c83;
+}
+
+.cryptoevent .head .searchBar input {
+  color: rgb(226, 213, 213);
+  font-size: 14pt;
+  width: 75%;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+  outline: none;
+  border: 0.1rem solid rgb(241, 227, 227);
+  margin-top: 1rem;
+}
+
+.cryptoevent .head .searchBar button {
+  color: white;
+  background: linear-gradient(to right, #ff4a67, #ff6c83);
+  text-align: center;
+  padding: 0.8rem 3rem;
+  text-decoration: none;
+  font-size: 14pt;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.cryptoevent .body {
+  text-align: center;
+}
+
+.cryptoevent .body .items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 4rem;
+  column-gap: 2rem;
+  margin-top: 5rem;
+}
+
+.cryptoevent .body .items .card {
+  border: 2px solid rgb(214, 209, 209);
+  padding: 1rem;
+  border-radius: 0.2rem;
+  display: none;
+}
+.cryptoevent .body .items .card:nth-child(1),
+.cryptoevent .body .items .card:nth-child(2),
+.cryptoevent .body .items .card:nth-child(3) {
+  display: inline-block;
+}
+
+.cryptoevent .body .items .card .card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cryptoevent .body .items .card .card-head .card-head-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.cryptoevent .body .items .card .card-header {
+  text-align: center;
+}
+.cryptoevent .body .items .card .card-header-body {
+  display: flex;
+  justify-content: space-between;
+}
